@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<script src="piros.js" defer></script>
+	<title>Hol a piros</title>
+</head>
+
+<body>
+	<div class="container">
+		<h4 class="text-center">Hol a piros?</h4>
+
+		<div class="holder">
+			<input id="meret" type="text" class="form-control">
+			<button class="btn btn-primary" onclick="start()">start</button>
+			<button class="btn btn-primary" onclick="ujgame()">uj jatek</button>
+		</div>
+
+		<div class="row justify-content-center">
+			<div id="racs" onclick="pozicio(event)">
+			</div>
+		</div>
+
+		<p style="text-align: center; font-size: 23px;" id="gratula"></p>
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+body{
+	background-color: #1e293b;
+}
+
+.container{
+	max-width: 600px;
+	background-color: #334155;
+	min-height: 80vh;
+	border-radius: 10px;
+	
+}
+
+.holder{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+}
+
+.box{
+	width: 51px;
+	height: 51px;
+	margin: 2px;
+	transition: 0.3s;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.box:hover{
+	width: 49px;
+	height: 49px;
+}
+
+#racs{
+	background-color:#475569;
+	padding: 25px;
+	margin: 20px;
+	border-radius: 5px;
+	
+}
